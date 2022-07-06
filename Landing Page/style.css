@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    max-width: inherit;
+    max-height: inherit;
+}
+.home {
+    position: relative;
+    height: 800px;
+    width: 375px;
+    bottom:-500px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(to right, #fbfde3, #ebf8e1, rgb(236, 234, 234));
+    border-radius: 60px;
+    box-shadow: 0 3px 10px 4px red;
+}
+.content-card{
+    position: absolute;
+    top:84.4%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    height:250px;
+    width:300px;
+    border-radius: 50px 50px 20px 20px;
+    background-color: rgb(87, 30, 30);
+}
+h1{
+    position: absolute;
+    top:10%;
+    left: 20px;
+    font-size: 40px;
+    color:aliceblue;
+    font-weight: 80;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+h2{
+    position: absolute;
+    top:30%;
+    left: 30px;
+    font-size: 30px;
+    color:aliceblue;
+    font-weight:100;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h3{
+    position: absolute;
+    top:50%;
+    left: 30px;
+    font-size: 22px;
+    color:aliceblue;
+    font-weight:100;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.arrow{
+    position: absolute;
+    top:95%;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 75px;
+    width: 110px;
+    border-radius:25px 25px;
+    background-color: rgb(4, 167, 12);
+    box-shadow: 0px 0px 300px 100px rgb(4, 167, 12);
+    border: none;
+    cursor: pointer;
+}
+.arrow::before{
+    content: '';
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 2px;
+    width: 40px;
+    border-radius:25px 25px;
+    background-color: black;
+}
+.arrow::after{
+    content: '';
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(30%, -40%) ;
+    height: 20px;
+    width: 20px;
+    border-radius:25px 25px;
+    clip-path: polygon(61% 54%, 60% 0%, 100% 50%, 60% 100%);
+    background-color: black;
+    -webkit-box-reflect: below 5px linear-gradient(transparent,#0008);
+    border: none;
+}
+
