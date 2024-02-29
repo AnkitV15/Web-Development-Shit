@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+    position: relative;
+    background-color: red ;
+    color: black;
+    margin: 10px;
+    text-align: center;
+}
+
+.navclass-lt {
+    position: absolute;
+    left: 10%;
+    display: flex;
+    align-items: center;
+}
+
+.navclass-lt ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.navclass-lt ul li{
+    margin: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.navclass-lt ul li a {
+    text-decoration: none;
+}
+
+.navclass-lt ul li {
+    align-self: center;
+}
+
+.brand-logo {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    flex-basis: 1;
+}
+
+.brand-logo > a > img {
+    height: 50%;
+    width: 50%;
+}
+
+.navclass-rt {
+    position: absolute;
+    right: 10%;
+    display: flex;
+    align-items: center;
+}
+
+.navclass-rt ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.navclass-rt ul li{
+    margin: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.navclass-rt ul li a {
+    text-decoration: none;
+}
+
+i {
+    margin: 10px 10px 0px 10px;
+    height: 15px;
+    width: 15px;
+}
+
+.main-content {
+    /* margin-top: 500px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
